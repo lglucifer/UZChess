@@ -8,13 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		2EA13E311EBC77DE00115EB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E301EBC77DE00115EB8 /* main.m */; };
-		2EA13E341EBC77DE00115EB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E331EBC77DE00115EB8 /* AppDelegate.m */; };
-		2EA13E371EBC77DE00115EB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E361EBC77DE00115EB8 /* ViewController.m */; };
-		2EA13E3A1EBC77DE00115EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA13E381EBC77DE00115EB8 /* Main.storyboard */; };
+		2EA13E341EBC77DE00115EB8 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E331EBC77DE00115EB8 /* AppDelegate.mm */; };
 		2EA13E3C1EBC77DE00115EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA13E3B1EBC77DE00115EB8 /* Assets.xcassets */; };
 		2EA13E3F1EBC77DE00115EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA13E3D1EBC77DE00115EB8 /* LaunchScreen.storyboard */; };
 		2EA13E4A1EBC77DE00115EB8 /* UZChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E491EBC77DE00115EB8 /* UZChessTests.m */; };
 		2EA13E551EBC77DE00115EB8 /* UZChessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E541EBC77DE00115EB8 /* UZChessUITests.m */; };
+		2EA13ED01EBC780E00115EB8 /* UZChessBoardViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E651EBC780E00115EB8 /* UZChessBoardViewController.mm */; };
+		2EA13ED11EBC780E00115EB8 /* UZAbstractSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E6A1EBC780E00115EB8 /* UZAbstractSettings.m */; };
+		2EA13ED21EBC780E00115EB8 /* UZBaseSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E6C1EBC780E00115EB8 /* UZBaseSettingStore.m */; };
+		2EA13ED31EBC780E00115EB8 /* UZChessSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E6E1EBC780E00115EB8 /* UZChessSettings.m */; };
+		2EA13ED41EBC780E00115EB8 /* UZChessSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E701EBC780E00115EB8 /* UZChessSettingStore.m */; };
+		2EA13ED51EBC780E00115EB8 /* UZGlobalSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E721EBC780E00115EB8 /* UZGlobalSettings.m */; };
+		2EA13ED61EBC780E00115EB8 /* UZSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E741EBC780E00115EB8 /* UZSettingStore.m */; };
+		2EA13ED71EBC780E00115EB8 /* IASKSettingsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E761EBC780E00115EB8 /* IASKSettingsReader.m */; };
+		2EA13ED81EBC780E00115EB8 /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E781EBC780E00115EB8 /* IASKSettingsStore.m */; };
+		2EA13ED91EBC780E00115EB8 /* IASKSettingsStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E7A1EBC780E00115EB8 /* IASKSettingsStoreFile.m */; };
+		2EA13EDA1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E7C1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m */; };
+		2EA13EDB1EBC780E00115EB8 /* IASKSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E7E1EBC780E00115EB8 /* IASKSpecifier.m */; };
+		2EA13F241EBC785900115EB8 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F021EBC785900115EB8 /* bitboard.cpp */; };
+		2EA13F251EBC785900115EB8 /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F041EBC785900115EB8 /* book.cpp */; };
+		2EA13F261EBC785900115EB8 /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F061EBC785900115EB8 /* color.cpp */; };
+		2EA13F271EBC785900115EB8 /* direction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F091EBC785900115EB8 /* direction.cpp */; };
+		2EA13F281EBC785900115EB8 /* mersenne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F0C1EBC785900115EB8 /* mersenne.cpp */; };
+		2EA13F291EBC785900115EB8 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F0E1EBC785900115EB8 /* misc.cpp */; };
+		2EA13F2A1EBC785900115EB8 /* move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F101EBC785900115EB8 /* move.cpp */; };
+		2EA13F2B1EBC785900115EB8 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F121EBC785900115EB8 /* movegen.cpp */; };
+		2EA13F2C1EBC785900115EB8 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F141EBC785900115EB8 /* movepick.cpp */; };
+		2EA13F2D1EBC785900115EB8 /* piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F171EBC785900115EB8 /* piece.cpp */; };
+		2EA13F2E1EBC785900115EB8 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F191EBC785900115EB8 /* position.cpp */; };
+		2EA13F2F1EBC785900115EB8 /* san.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F1C1EBC785900115EB8 /* san.cpp */; };
+		2EA13F301EBC785900115EB8 /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F1F1EBC785900115EB8 /* square.cpp */; };
+		2EA13F311EBC785900115EB8 /* value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F221EBC785900115EB8 /* value.cpp */; };
+		2EA13F5C1EBC788300115EB8 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F331EBC788300115EB8 /* benchmark.cpp */; };
+		2EA13F5D1EBC788300115EB8 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F341EBC788300115EB8 /* bitbase.cpp */; };
+		2EA13F5E1EBC788300115EB8 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F351EBC788300115EB8 /* bitboard.cpp */; };
+		2EA13F5F1EBC788300115EB8 /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F381EBC788300115EB8 /* book.cpp */; };
+		2EA13F601EBC788300115EB8 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F3A1EBC788300115EB8 /* endgame.cpp */; };
+		2EA13F611EBC788300115EB8 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F3C1EBC788300115EB8 /* evaluate.cpp */; };
+		2EA13F621EBC788300115EB8 /* iphone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F3F1EBC788300115EB8 /* iphone.mm */; };
+		2EA13F631EBC788300115EB8 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F401EBC788300115EB8 /* material.cpp */; };
+		2EA13F641EBC788300115EB8 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F421EBC788300115EB8 /* misc.cpp */; };
+		2EA13F651EBC788300115EB8 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F441EBC788300115EB8 /* movegen.cpp */; };
+		2EA13F661EBC788300115EB8 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F461EBC788300115EB8 /* movepick.cpp */; };
+		2EA13F671EBC788300115EB8 /* notation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F481EBC788300115EB8 /* notation.cpp */; };
+		2EA13F681EBC788300115EB8 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F4A1EBC788300115EB8 /* pawns.cpp */; };
+		2EA13F691EBC788300115EB8 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F4C1EBC788300115EB8 /* position.cpp */; };
+		2EA13F6A1EBC788300115EB8 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F501EBC788300115EB8 /* search.cpp */; };
+		2EA13F6B1EBC788300115EB8 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F521EBC788300115EB8 /* thread.cpp */; };
+		2EA13F6C1EBC788300115EB8 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F541EBC788300115EB8 /* timeman.cpp */; };
+		2EA13F6D1EBC788300115EB8 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F561EBC788300115EB8 /* tt.cpp */; };
+		2EA13F6E1EBC788300115EB8 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F591EBC788300115EB8 /* uci.cpp */; };
+		2EA13F6F1EBC788300115EB8 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F5A1EBC788300115EB8 /* ucioption.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +82,7 @@
 		2EA13E2C1EBC77DE00115EB8 /* UZChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UZChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA13E301EBC77DE00115EB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EA13E321EBC77DE00115EB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2EA13E331EBC77DE00115EB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2EA13E351EBC77DE00115EB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2EA13E361EBC77DE00115EB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2EA13E391EBC77DE00115EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA13E331EBC77DE00115EB8 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		2EA13E3B1EBC77DE00115EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA13E3E1EBC77DE00115EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EA13E401EBC77DE00115EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +92,106 @@
 		2EA13E501EBC77DE00115EB8 /* UZChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UZChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA13E541EBC77DE00115EB8 /* UZChessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UZChessUITests.m; sourceTree = "<group>"; };
 		2EA13E561EBC77DE00115EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA13E641EBC780E00115EB8 /* UZChessBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardViewController.h; sourceTree = "<group>"; };
+		2EA13E651EBC780E00115EB8 /* UZChessBoardViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessBoardViewController.mm; sourceTree = "<group>"; };
+		2EA13E691EBC780E00115EB8 /* UZAbstractSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAbstractSettings.h; sourceTree = "<group>"; };
+		2EA13E6A1EBC780E00115EB8 /* UZAbstractSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZAbstractSettings.m; sourceTree = "<group>"; };
+		2EA13E6B1EBC780E00115EB8 /* UZBaseSettingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZBaseSettingStore.h; sourceTree = "<group>"; };
+		2EA13E6C1EBC780E00115EB8 /* UZBaseSettingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZBaseSettingStore.m; sourceTree = "<group>"; };
+		2EA13E6D1EBC780E00115EB8 /* UZChessSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessSettings.h; sourceTree = "<group>"; };
+		2EA13E6E1EBC780E00115EB8 /* UZChessSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessSettings.m; sourceTree = "<group>"; };
+		2EA13E6F1EBC780E00115EB8 /* UZChessSettingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessSettingStore.h; sourceTree = "<group>"; };
+		2EA13E701EBC780E00115EB8 /* UZChessSettingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessSettingStore.m; sourceTree = "<group>"; };
+		2EA13E711EBC780E00115EB8 /* UZGlobalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZGlobalSettings.h; sourceTree = "<group>"; };
+		2EA13E721EBC780E00115EB8 /* UZGlobalSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZGlobalSettings.m; sourceTree = "<group>"; };
+		2EA13E731EBC780E00115EB8 /* UZSettingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZSettingStore.h; sourceTree = "<group>"; };
+		2EA13E741EBC780E00115EB8 /* UZSettingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZSettingStore.m; sourceTree = "<group>"; };
+		2EA13E751EBC780E00115EB8 /* IASKSettingsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsReader.h; sourceTree = "<group>"; };
+		2EA13E761EBC780E00115EB8 /* IASKSettingsReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsReader.m; sourceTree = "<group>"; };
+		2EA13E771EBC780E00115EB8 /* IASKSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStore.h; sourceTree = "<group>"; };
+		2EA13E781EBC780E00115EB8 /* IASKSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStore.m; sourceTree = "<group>"; };
+		2EA13E791EBC780E00115EB8 /* IASKSettingsStoreFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStoreFile.h; sourceTree = "<group>"; };
+		2EA13E7A1EBC780E00115EB8 /* IASKSettingsStoreFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStoreFile.m; sourceTree = "<group>"; };
+		2EA13E7B1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSettingsStoreUserDefaults.h; sourceTree = "<group>"; };
+		2EA13E7C1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSettingsStoreUserDefaults.m; sourceTree = "<group>"; };
+		2EA13E7D1EBC780E00115EB8 /* IASKSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKSpecifier.h; sourceTree = "<group>"; };
+		2EA13E7E1EBC780E00115EB8 /* IASKSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKSpecifier.m; sourceTree = "<group>"; };
+		2EA13F001EBC781600115EB8 /* UZChess.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChess.pch; sourceTree = "<group>"; };
+		2EA13F021EBC785900115EB8 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitboard.cpp; sourceTree = "<group>"; };
+		2EA13F031EBC785900115EB8 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitboard.h; sourceTree = "<group>"; };
+		2EA13F041EBC785900115EB8 /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = book.cpp; sourceTree = "<group>"; };
+		2EA13F051EBC785900115EB8 /* book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = book.h; sourceTree = "<group>"; };
+		2EA13F061EBC785900115EB8 /* color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color.cpp; sourceTree = "<group>"; };
+		2EA13F071EBC785900115EB8 /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		2EA13F081EBC785900115EB8 /* depth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = depth.h; sourceTree = "<group>"; };
+		2EA13F091EBC785900115EB8 /* direction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = direction.cpp; sourceTree = "<group>"; };
+		2EA13F0A1EBC785900115EB8 /* direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = direction.h; sourceTree = "<group>"; };
+		2EA13F0B1EBC785900115EB8 /* lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lock.h; sourceTree = "<group>"; };
+		2EA13F0C1EBC785900115EB8 /* mersenne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mersenne.cpp; sourceTree = "<group>"; };
+		2EA13F0D1EBC785900115EB8 /* mersenne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mersenne.h; sourceTree = "<group>"; };
+		2EA13F0E1EBC785900115EB8 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		2EA13F0F1EBC785900115EB8 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		2EA13F101EBC785900115EB8 /* move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = move.cpp; sourceTree = "<group>"; };
+		2EA13F111EBC785900115EB8 /* move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = move.h; sourceTree = "<group>"; };
+		2EA13F121EBC785900115EB8 /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movegen.cpp; sourceTree = "<group>"; };
+		2EA13F131EBC785900115EB8 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movegen.h; sourceTree = "<group>"; };
+		2EA13F141EBC785900115EB8 /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movepick.cpp; sourceTree = "<group>"; };
+		2EA13F151EBC785900115EB8 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movepick.h; sourceTree = "<group>"; };
+		2EA13F161EBC785900115EB8 /* phase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phase.h; sourceTree = "<group>"; };
+		2EA13F171EBC785900115EB8 /* piece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = piece.cpp; sourceTree = "<group>"; };
+		2EA13F181EBC785900115EB8 /* piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = piece.h; sourceTree = "<group>"; };
+		2EA13F191EBC785900115EB8 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		2EA13F1A1EBC785900115EB8 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		2EA13F1B1EBC785900115EB8 /* psqtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psqtab.h; sourceTree = "<group>"; };
+		2EA13F1C1EBC785900115EB8 /* san.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = san.cpp; sourceTree = "<group>"; };
+		2EA13F1D1EBC785900115EB8 /* san.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = san.h; sourceTree = "<group>"; };
+		2EA13F1E1EBC785900115EB8 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
+		2EA13F1F1EBC785900115EB8 /* square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = square.cpp; sourceTree = "<group>"; };
+		2EA13F201EBC785900115EB8 /* square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = square.h; sourceTree = "<group>"; };
+		2EA13F211EBC785900115EB8 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		2EA13F221EBC785900115EB8 /* value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = value.cpp; sourceTree = "<group>"; };
+		2EA13F231EBC785900115EB8 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		2EA13F331EBC788300115EB8 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
+		2EA13F341EBC788300115EB8 /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitbase.cpp; sourceTree = "<group>"; };
+		2EA13F351EBC788300115EB8 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitboard.cpp; sourceTree = "<group>"; };
+		2EA13F361EBC788300115EB8 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitboard.h; sourceTree = "<group>"; };
+		2EA13F371EBC788300115EB8 /* bitcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitcount.h; sourceTree = "<group>"; };
+		2EA13F381EBC788300115EB8 /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = book.cpp; sourceTree = "<group>"; };
+		2EA13F391EBC788300115EB8 /* book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = book.h; sourceTree = "<group>"; };
+		2EA13F3A1EBC788300115EB8 /* endgame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = endgame.cpp; sourceTree = "<group>"; };
+		2EA13F3B1EBC788300115EB8 /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endgame.h; sourceTree = "<group>"; };
+		2EA13F3C1EBC788300115EB8 /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evaluate.cpp; sourceTree = "<group>"; };
+		2EA13F3D1EBC788300115EB8 /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evaluate.h; sourceTree = "<group>"; };
+		2EA13F3E1EBC788300115EB8 /* iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphone.h; sourceTree = "<group>"; };
+		2EA13F3F1EBC788300115EB8 /* iphone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iphone.mm; sourceTree = "<group>"; };
+		2EA13F401EBC788300115EB8 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = material.cpp; sourceTree = "<group>"; };
+		2EA13F411EBC788300115EB8 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		2EA13F421EBC788300115EB8 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		2EA13F431EBC788300115EB8 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		2EA13F441EBC788300115EB8 /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movegen.cpp; sourceTree = "<group>"; };
+		2EA13F451EBC788300115EB8 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movegen.h; sourceTree = "<group>"; };
+		2EA13F461EBC788300115EB8 /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movepick.cpp; sourceTree = "<group>"; };
+		2EA13F471EBC788300115EB8 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movepick.h; sourceTree = "<group>"; };
+		2EA13F481EBC788300115EB8 /* notation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notation.cpp; sourceTree = "<group>"; };
+		2EA13F491EBC788300115EB8 /* notation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notation.h; sourceTree = "<group>"; };
+		2EA13F4A1EBC788300115EB8 /* pawns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pawns.cpp; sourceTree = "<group>"; };
+		2EA13F4B1EBC788300115EB8 /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pawns.h; sourceTree = "<group>"; };
+		2EA13F4C1EBC788300115EB8 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		2EA13F4D1EBC788300115EB8 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		2EA13F4E1EBC788300115EB8 /* psqtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psqtab.h; sourceTree = "<group>"; };
+		2EA13F4F1EBC788300115EB8 /* rkiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rkiss.h; sourceTree = "<group>"; };
+		2EA13F501EBC788300115EB8 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
+		2EA13F511EBC788300115EB8 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		2EA13F521EBC788300115EB8 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		2EA13F531EBC788300115EB8 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		2EA13F541EBC788300115EB8 /* timeman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timeman.cpp; sourceTree = "<group>"; };
+		2EA13F551EBC788300115EB8 /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeman.h; sourceTree = "<group>"; };
+		2EA13F561EBC788300115EB8 /* tt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tt.cpp; sourceTree = "<group>"; };
+		2EA13F571EBC788300115EB8 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt.h; sourceTree = "<group>"; };
+		2EA13F581EBC788300115EB8 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		2EA13F591EBC788300115EB8 /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uci.cpp; sourceTree = "<group>"; };
+		2EA13F5A1EBC788300115EB8 /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ucioption.cpp; sourceTree = "<group>"; };
+		2EA13F5B1EBC788300115EB8 /* ucioption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucioption.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +242,10 @@
 		2EA13E2E1EBC77DE00115EB8 /* UZChess */ = {
 			isa = PBXGroup;
 			children = (
+				2EA13E621EBC780E00115EB8 /* Module */,
+				2EA13E661EBC780E00115EB8 /* ThirdSource */,
 				2EA13E321EBC77DE00115EB8 /* AppDelegate.h */,
-				2EA13E331EBC77DE00115EB8 /* AppDelegate.m */,
-				2EA13E351EBC77DE00115EB8 /* ViewController.h */,
-				2EA13E361EBC77DE00115EB8 /* ViewController.m */,
-				2EA13E381EBC77DE00115EB8 /* Main.storyboard */,
+				2EA13E331EBC77DE00115EB8 /* AppDelegate.mm */,
 				2EA13E3B1EBC77DE00115EB8 /* Assets.xcassets */,
 				2EA13E3D1EBC77DE00115EB8 /* LaunchScreen.storyboard */,
 				2EA13E401EBC77DE00115EB8 /* Info.plist */,
@@ -117,6 +257,7 @@
 		2EA13E2F1EBC77DE00115EB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EA13F001EBC781600115EB8 /* UZChess.pch */,
 				2EA13E301EBC77DE00115EB8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +279,167 @@
 				2EA13E561EBC77DE00115EB8 /* Info.plist */,
 			);
 			path = UZChessUITests;
+			sourceTree = "<group>";
+		};
+		2EA13E621EBC780E00115EB8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13E631EBC780E00115EB8 /* Board */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		2EA13E631EBC780E00115EB8 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13E641EBC780E00115EB8 /* UZChessBoardViewController.h */,
+				2EA13E651EBC780E00115EB8 /* UZChessBoardViewController.mm */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		2EA13E661EBC780E00115EB8 /* ThirdSource */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13E671EBC780E00115EB8 /* InAppSettingsKit */,
+				2EA13E7F1EBC780E00115EB8 /* Stockfish */,
+			);
+			path = ThirdSource;
+			sourceTree = "<group>";
+		};
+		2EA13E671EBC780E00115EB8 /* InAppSettingsKit */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13E681EBC780E00115EB8 /* BSSettingHelper */,
+				2EA13E751EBC780E00115EB8 /* IASKSettingsReader.h */,
+				2EA13E761EBC780E00115EB8 /* IASKSettingsReader.m */,
+				2EA13E771EBC780E00115EB8 /* IASKSettingsStore.h */,
+				2EA13E781EBC780E00115EB8 /* IASKSettingsStore.m */,
+				2EA13E791EBC780E00115EB8 /* IASKSettingsStoreFile.h */,
+				2EA13E7A1EBC780E00115EB8 /* IASKSettingsStoreFile.m */,
+				2EA13E7B1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.h */,
+				2EA13E7C1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m */,
+				2EA13E7D1EBC780E00115EB8 /* IASKSpecifier.h */,
+				2EA13E7E1EBC780E00115EB8 /* IASKSpecifier.m */,
+			);
+			path = InAppSettingsKit;
+			sourceTree = "<group>";
+		};
+		2EA13E681EBC780E00115EB8 /* BSSettingHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13E691EBC780E00115EB8 /* UZAbstractSettings.h */,
+				2EA13E6A1EBC780E00115EB8 /* UZAbstractSettings.m */,
+				2EA13E6B1EBC780E00115EB8 /* UZBaseSettingStore.h */,
+				2EA13E6C1EBC780E00115EB8 /* UZBaseSettingStore.m */,
+				2EA13E6D1EBC780E00115EB8 /* UZChessSettings.h */,
+				2EA13E6E1EBC780E00115EB8 /* UZChessSettings.m */,
+				2EA13E6F1EBC780E00115EB8 /* UZChessSettingStore.h */,
+				2EA13E701EBC780E00115EB8 /* UZChessSettingStore.m */,
+				2EA13E711EBC780E00115EB8 /* UZGlobalSettings.h */,
+				2EA13E721EBC780E00115EB8 /* UZGlobalSettings.m */,
+				2EA13E731EBC780E00115EB8 /* UZSettingStore.h */,
+				2EA13E741EBC780E00115EB8 /* UZSettingStore.m */,
+			);
+			path = BSSettingHelper;
+			sourceTree = "<group>";
+		};
+		2EA13E7F1EBC780E00115EB8 /* Stockfish */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13F321EBC788300115EB8 /* Engine */,
+				2EA13F011EBC785900115EB8 /* Chess */,
+			);
+			path = Stockfish;
+			sourceTree = "<group>";
+		};
+		2EA13F011EBC785900115EB8 /* Chess */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13F021EBC785900115EB8 /* bitboard.cpp */,
+				2EA13F031EBC785900115EB8 /* bitboard.h */,
+				2EA13F041EBC785900115EB8 /* book.cpp */,
+				2EA13F051EBC785900115EB8 /* book.h */,
+				2EA13F061EBC785900115EB8 /* color.cpp */,
+				2EA13F071EBC785900115EB8 /* color.h */,
+				2EA13F081EBC785900115EB8 /* depth.h */,
+				2EA13F091EBC785900115EB8 /* direction.cpp */,
+				2EA13F0A1EBC785900115EB8 /* direction.h */,
+				2EA13F0B1EBC785900115EB8 /* lock.h */,
+				2EA13F0C1EBC785900115EB8 /* mersenne.cpp */,
+				2EA13F0D1EBC785900115EB8 /* mersenne.h */,
+				2EA13F0E1EBC785900115EB8 /* misc.cpp */,
+				2EA13F0F1EBC785900115EB8 /* misc.h */,
+				2EA13F101EBC785900115EB8 /* move.cpp */,
+				2EA13F111EBC785900115EB8 /* move.h */,
+				2EA13F121EBC785900115EB8 /* movegen.cpp */,
+				2EA13F131EBC785900115EB8 /* movegen.h */,
+				2EA13F141EBC785900115EB8 /* movepick.cpp */,
+				2EA13F151EBC785900115EB8 /* movepick.h */,
+				2EA13F161EBC785900115EB8 /* phase.h */,
+				2EA13F171EBC785900115EB8 /* piece.cpp */,
+				2EA13F181EBC785900115EB8 /* piece.h */,
+				2EA13F191EBC785900115EB8 /* position.cpp */,
+				2EA13F1A1EBC785900115EB8 /* position.h */,
+				2EA13F1B1EBC785900115EB8 /* psqtab.h */,
+				2EA13F1C1EBC785900115EB8 /* san.cpp */,
+				2EA13F1D1EBC785900115EB8 /* san.h */,
+				2EA13F1E1EBC785900115EB8 /* scale.h */,
+				2EA13F1F1EBC785900115EB8 /* square.cpp */,
+				2EA13F201EBC785900115EB8 /* square.h */,
+				2EA13F211EBC785900115EB8 /* types.h */,
+				2EA13F221EBC785900115EB8 /* value.cpp */,
+				2EA13F231EBC785900115EB8 /* value.h */,
+			);
+			path = Chess;
+			sourceTree = "<group>";
+		};
+		2EA13F321EBC788300115EB8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				2EA13F331EBC788300115EB8 /* benchmark.cpp */,
+				2EA13F341EBC788300115EB8 /* bitbase.cpp */,
+				2EA13F351EBC788300115EB8 /* bitboard.cpp */,
+				2EA13F361EBC788300115EB8 /* bitboard.h */,
+				2EA13F371EBC788300115EB8 /* bitcount.h */,
+				2EA13F381EBC788300115EB8 /* book.cpp */,
+				2EA13F391EBC788300115EB8 /* book.h */,
+				2EA13F3A1EBC788300115EB8 /* endgame.cpp */,
+				2EA13F3B1EBC788300115EB8 /* endgame.h */,
+				2EA13F3C1EBC788300115EB8 /* evaluate.cpp */,
+				2EA13F3D1EBC788300115EB8 /* evaluate.h */,
+				2EA13F3E1EBC788300115EB8 /* iphone.h */,
+				2EA13F3F1EBC788300115EB8 /* iphone.mm */,
+				2EA13F401EBC788300115EB8 /* material.cpp */,
+				2EA13F411EBC788300115EB8 /* material.h */,
+				2EA13F421EBC788300115EB8 /* misc.cpp */,
+				2EA13F431EBC788300115EB8 /* misc.h */,
+				2EA13F441EBC788300115EB8 /* movegen.cpp */,
+				2EA13F451EBC788300115EB8 /* movegen.h */,
+				2EA13F461EBC788300115EB8 /* movepick.cpp */,
+				2EA13F471EBC788300115EB8 /* movepick.h */,
+				2EA13F481EBC788300115EB8 /* notation.cpp */,
+				2EA13F491EBC788300115EB8 /* notation.h */,
+				2EA13F4A1EBC788300115EB8 /* pawns.cpp */,
+				2EA13F4B1EBC788300115EB8 /* pawns.h */,
+				2EA13F4C1EBC788300115EB8 /* position.cpp */,
+				2EA13F4D1EBC788300115EB8 /* position.h */,
+				2EA13F4E1EBC788300115EB8 /* psqtab.h */,
+				2EA13F4F1EBC788300115EB8 /* rkiss.h */,
+				2EA13F501EBC788300115EB8 /* search.cpp */,
+				2EA13F511EBC788300115EB8 /* search.h */,
+				2EA13F521EBC788300115EB8 /* thread.cpp */,
+				2EA13F531EBC788300115EB8 /* thread.h */,
+				2EA13F541EBC788300115EB8 /* timeman.cpp */,
+				2EA13F551EBC788300115EB8 /* timeman.h */,
+				2EA13F561EBC788300115EB8 /* tt.cpp */,
+				2EA13F571EBC788300115EB8 /* tt.h */,
+				2EA13F581EBC788300115EB8 /* types.h */,
+				2EA13F591EBC788300115EB8 /* uci.cpp */,
+				2EA13F5A1EBC788300115EB8 /* ucioption.cpp */,
+				2EA13F5B1EBC788300115EB8 /* ucioption.h */,
+			);
+			path = Engine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +553,6 @@
 			files = (
 				2EA13E3F1EBC77DE00115EB8 /* LaunchScreen.storyboard in Resources */,
 				2EA13E3C1EBC77DE00115EB8 /* Assets.xcassets in Resources */,
-				2EA13E3A1EBC77DE00115EB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +577,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA13E371EBC77DE00115EB8 /* ViewController.m in Sources */,
-				2EA13E341EBC77DE00115EB8 /* AppDelegate.m in Sources */,
+				2EA13F611EBC788300115EB8 /* evaluate.cpp in Sources */,
+				2EA13F5D1EBC788300115EB8 /* bitbase.cpp in Sources */,
+				2EA13EDB1EBC780E00115EB8 /* IASKSpecifier.m in Sources */,
+				2EA13F301EBC785900115EB8 /* square.cpp in Sources */,
+				2EA13F601EBC788300115EB8 /* endgame.cpp in Sources */,
+				2EA13ED91EBC780E00115EB8 /* IASKSettingsStoreFile.m in Sources */,
+				2EA13F6E1EBC788300115EB8 /* uci.cpp in Sources */,
+				2EA13F5F1EBC788300115EB8 /* book.cpp in Sources */,
+				2EA13ED21EBC780E00115EB8 /* UZBaseSettingStore.m in Sources */,
+				2EA13F5C1EBC788300115EB8 /* benchmark.cpp in Sources */,
+				2EA13F6A1EBC788300115EB8 /* search.cpp in Sources */,
+				2EA13F5E1EBC788300115EB8 /* bitboard.cpp in Sources */,
+				2EA13F6B1EBC788300115EB8 /* thread.cpp in Sources */,
+				2EA13F6C1EBC788300115EB8 /* timeman.cpp in Sources */,
+				2EA13F271EBC785900115EB8 /* direction.cpp in Sources */,
+				2EA13ED71EBC780E00115EB8 /* IASKSettingsReader.m in Sources */,
+				2EA13F631EBC788300115EB8 /* material.cpp in Sources */,
+				2EA13F251EBC785900115EB8 /* book.cpp in Sources */,
+				2EA13F311EBC785900115EB8 /* value.cpp in Sources */,
+				2EA13F651EBC788300115EB8 /* movegen.cpp in Sources */,
+				2EA13F261EBC785900115EB8 /* color.cpp in Sources */,
+				2EA13F2B1EBC785900115EB8 /* movegen.cpp in Sources */,
+				2EA13F2D1EBC785900115EB8 /* piece.cpp in Sources */,
+				2EA13F641EBC788300115EB8 /* misc.cpp in Sources */,
+				2EA13F6F1EBC788300115EB8 /* ucioption.cpp in Sources */,
+				2EA13F681EBC788300115EB8 /* pawns.cpp in Sources */,
+				2EA13E341EBC77DE00115EB8 /* AppDelegate.mm in Sources */,
+				2EA13ED31EBC780E00115EB8 /* UZChessSettings.m in Sources */,
 				2EA13E311EBC77DE00115EB8 /* main.m in Sources */,
+				2EA13F2F1EBC785900115EB8 /* san.cpp in Sources */,
+				2EA13ED01EBC780E00115EB8 /* UZChessBoardViewController.mm in Sources */,
+				2EA13F671EBC788300115EB8 /* notation.cpp in Sources */,
+				2EA13F2A1EBC785900115EB8 /* move.cpp in Sources */,
+				2EA13ED41EBC780E00115EB8 /* UZChessSettingStore.m in Sources */,
+				2EA13ED51EBC780E00115EB8 /* UZGlobalSettings.m in Sources */,
+				2EA13F291EBC785900115EB8 /* misc.cpp in Sources */,
+				2EA13F621EBC788300115EB8 /* iphone.mm in Sources */,
+				2EA13F691EBC788300115EB8 /* position.cpp in Sources */,
+				2EA13ED81EBC780E00115EB8 /* IASKSettingsStore.m in Sources */,
+				2EA13EDA1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m in Sources */,
+				2EA13F2E1EBC785900115EB8 /* position.cpp in Sources */,
+				2EA13ED11EBC780E00115EB8 /* UZAbstractSettings.m in Sources */,
+				2EA13ED61EBC780E00115EB8 /* UZSettingStore.m in Sources */,
+				2EA13F6D1EBC788300115EB8 /* tt.cpp in Sources */,
+				2EA13F241EBC785900115EB8 /* bitboard.cpp in Sources */,
+				2EA13F281EBC785900115EB8 /* mersenne.cpp in Sources */,
+				2EA13F2C1EBC785900115EB8 /* movepick.cpp in Sources */,
+				2EA13F661EBC788300115EB8 /* movepick.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +660,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2EA13E381EBC77DE00115EB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EA13E391EBC77DE00115EB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2EA13E3D1EBC77DE00115EB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

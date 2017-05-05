@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#include <mutex>
+#include "../UZChess/ThirdSource/Stockfish/Chess/mersenne.h"
+#include "../UZChess/ThirdSource/Stockfish/Chess/movepick.h"
+
+using namespace Chess;
 
 @interface AppDelegate ()
 
@@ -16,10 +21,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[UIViewController alloc] init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
+- (void)inner_BackgroundInit {
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

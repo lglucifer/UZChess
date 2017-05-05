@@ -1,0 +1,12 @@
+//
+//  UZChess.pch
+//  UZChess
+//
+//  Created by Xiaoyu Liu on 17/5/4.
+//  Copyright © 2017年 com.uzero. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
