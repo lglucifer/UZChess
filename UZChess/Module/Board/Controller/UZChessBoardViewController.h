@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UZChessBoardView.h"
 
 @interface UZChessBoardViewController : UIViewController
 

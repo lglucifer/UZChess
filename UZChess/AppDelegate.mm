@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "UZChessBoardViewController.h"
+#import "UZChessGameController.h"
+
 #include <mutex>
 #include "../UZChess/ThirdSource/Stockfish/Chess/mersenne.h"
 #include "../UZChess/ThirdSource/Stockfish/Chess/movepick.h"
@@ -14,6 +17,8 @@
 using namespace Chess;
 
 @interface AppDelegate ()
+
+@property (nonatomic, weak) UZChessBoardViewController *boardViewController;
 
 @end
 
@@ -23,13 +28,40 @@ using namespace Chess;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    UZChessBoardViewController *boardViewController = [[UZChessBoardViewController alloc] init];
+    self.window.rootViewController = boardViewController;
+    self.boardViewController = boardViewController;
     [self.window makeKeyAndVisible];
+    
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    [self performSelectorInBackground:@selector(inner_BackgroundInit) withObject:nil];
     
     return YES;
 }
 
 - (void)inner_BackgroundInit {
+    @autoreleasepool {
+        /* Chess init */
+        init_mersenne();
+        init_direction_table();
+        init_bitboards();
+        Position::init_zobrist();
+        Position::init_piece_square_tables();
+        MovePicker::init_phase_table();
+        
+        // Make random number generation less deterministic, for book moves
+        int i = abs(get_system_time() % 10000);
+        for (int j = 0; j < i; j++) {
+            genrand_int32();
+        }
+        
+        [self performSelectorOnMainThread:@selector(inner_BackgroundInitFinished)
+                               withObject:nil
+                            waitUntilDone:NO];
+    }
+}
+
+- (void)inner_BackgroundInitFinished {
     
 }
 

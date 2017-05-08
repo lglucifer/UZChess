@@ -2,7 +2,7 @@
 //// Includes
 ////
 
-//#import "EngineController.h"
+#import "EngineController.h"
 
 #include <iomanip>
 #include <sstream>
@@ -50,12 +50,12 @@ void engine_exit() {
 
 
 void pv_to_ui(const string &pv, int depth, int score, int scoreType, bool mate) {
-//  NSString *string = [[NSString alloc]
-//                        initWithUTF8String: pv.c_str()];
-//   dispatch_async(dispatch_get_main_queue(), ^{
-//      [GlobalEngineController sendPV:string depth:depth score:score scoreType:scoreType
-//                                mate: (mate ? YES : NO)];
-//   });
+  NSString *string = [[NSString alloc]
+                        initWithUTF8String: pv.c_str()];
+   dispatch_async(dispatch_get_main_queue(), ^{
+      [GlobalEngineController sendPV:string depth:depth score:score scoreType:scoreType
+                                mate: (mate ? YES : NO)];
+   });
 }
 
 
@@ -70,23 +70,23 @@ void currmove_to_ui(const string currmove, int currmovenum, int movenum,
 
 void searchstats_to_ui(int64_t nodes, long time) {
 
-//   dispatch_async(dispatch_get_main_queue(), ^{
-//      [GlobalEngineController
-//            sendCurrentMove:[NSString stringWithUTF8String:CurrentMove.c_str()]
-//          currentMoveNumber:CurrentMoveNumber
-//              numberOfMoves:TotalMoveCount
-//                      depth:CurrentDepth
-//                       time:time
-//                      nodes:nodes];
-//   });
+   dispatch_async(dispatch_get_main_queue(), ^{
+      [GlobalEngineController
+            sendCurrentMove:[NSString stringWithUTF8String:CurrentMove.c_str()]
+          currentMoveNumber:CurrentMoveNumber
+              numberOfMoves:TotalMoveCount
+                      depth:CurrentDepth
+                       time:time
+                      nodes:nodes];
+   });
 }
 
 
 void bestmove_to_ui(const string &best, const string &ponder) {
-//   NSString *bestString = [[NSString alloc] initWithUTF8String: best.c_str()];
-//   NSString *ponderString = [[NSString alloc] initWithUTF8String: ponder.c_str()];
-//  [GlobalEngineController sendBestMove: bestString
-//                            ponderMove: ponderString];
+   NSString *bestString = [[NSString alloc] initWithUTF8String: best.c_str()];
+   NSString *ponderString = [[NSString alloc] initWithUTF8String: ponder.c_str()];
+  [GlobalEngineController sendBestMove: bestString
+                            ponderMove: ponderString];
 }
 
 
@@ -98,12 +98,10 @@ void command_to_engine(const string &command) {
 
 
 bool command_is_waiting() {
-//  return [GlobalEngineController commandIsWaiting];
-    return true;
+  return [GlobalEngineController commandIsWaiting];
 }
 
 
 string get_command() {
-//   return string([[GlobalEngineController getCommand] UTF8String]);
-    return "";
+   return string([[GlobalEngineController getCommand] UTF8String]);
 }

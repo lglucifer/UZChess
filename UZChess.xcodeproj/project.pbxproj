@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E9EF5FE1EC017FF00C4C5C3 /* UZChessBoardViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF5FC1EC017FF00C4C5C3 /* UZChessBoardViewController.mm */; };
+		2E9EF6011EC0184300C4C5C3 /* UZChessBoardView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6001EC0184300C4C5C3 /* UZChessBoardView.mm */; };
+		2E9EF6051EC05B8D00C4C5C3 /* UZChessGameController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6041EC05B8D00C4C5C3 /* UZChessGameController.mm */; };
+		2E9EF6081EC05BEE00C4C5C3 /* UZChessGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.m */; };
+		2E9EF60E1EC0608400C4C5C3 /* EngineController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF60B1EC0608400C4C5C3 /* EngineController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2E9EF60F1EC0608400C4C5C3 /* Queue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF60D1EC0608400C4C5C3 /* Queue.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2E9EF6121EC06F7E00C4C5C3 /* Util.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6111EC06F7E00C4C5C3 /* Util.mm */; };
 		2EA13E311EBC77DE00115EB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E301EBC77DE00115EB8 /* main.m */; };
 		2EA13E341EBC77DE00115EB8 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E331EBC77DE00115EB8 /* AppDelegate.mm */; };
 		2EA13E3C1EBC77DE00115EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA13E3B1EBC77DE00115EB8 /* Assets.xcassets */; };
 		2EA13E3F1EBC77DE00115EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA13E3D1EBC77DE00115EB8 /* LaunchScreen.storyboard */; };
 		2EA13E4A1EBC77DE00115EB8 /* UZChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E491EBC77DE00115EB8 /* UZChessTests.m */; };
 		2EA13E551EBC77DE00115EB8 /* UZChessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E541EBC77DE00115EB8 /* UZChessUITests.m */; };
-		2EA13ED01EBC780E00115EB8 /* UZChessBoardViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E651EBC780E00115EB8 /* UZChessBoardViewController.mm */; };
 		2EA13ED11EBC780E00115EB8 /* UZAbstractSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E6A1EBC780E00115EB8 /* UZAbstractSettings.m */; };
 		2EA13ED21EBC780E00115EB8 /* UZBaseSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E6C1EBC780E00115EB8 /* UZBaseSettingStore.m */; };
 		2EA13ED31EBC780E00115EB8 /* UZChessSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13E6E1EBC780E00115EB8 /* UZChessSettings.m */; };
@@ -79,6 +85,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E9EF5FB1EC017FF00C4C5C3 /* UZChessBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardViewController.h; sourceTree = "<group>"; };
+		2E9EF5FC1EC017FF00C4C5C3 /* UZChessBoardViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessBoardViewController.mm; sourceTree = "<group>"; };
+		2E9EF5FF1EC0184300C4C5C3 /* UZChessBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardView.h; sourceTree = "<group>"; };
+		2E9EF6001EC0184300C4C5C3 /* UZChessBoardView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessBoardView.mm; sourceTree = "<group>"; };
+		2E9EF6031EC05B8D00C4C5C3 /* UZChessGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessGameController.h; sourceTree = "<group>"; };
+		2E9EF6041EC05B8D00C4C5C3 /* UZChessGameController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessGameController.mm; sourceTree = "<group>"; };
+		2E9EF6061EC05BEE00C4C5C3 /* UZChessGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessGame.h; sourceTree = "<group>"; };
+		2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessGame.m; sourceTree = "<group>"; };
+		2E9EF60A1EC0608400C4C5C3 /* EngineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineController.h; sourceTree = "<group>"; };
+		2E9EF60B1EC0608400C4C5C3 /* EngineController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EngineController.mm; sourceTree = "<group>"; };
+		2E9EF60C1EC0608400C4C5C3 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		2E9EF60D1EC0608400C4C5C3 /* Queue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Queue.mm; sourceTree = "<group>"; };
+		2E9EF6101EC06F7E00C4C5C3 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		2E9EF6111EC06F7E00C4C5C3 /* Util.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Util.mm; sourceTree = "<group>"; };
 		2EA13E2C1EBC77DE00115EB8 /* UZChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UZChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA13E301EBC77DE00115EB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EA13E321EBC77DE00115EB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,8 +112,6 @@
 		2EA13E501EBC77DE00115EB8 /* UZChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UZChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA13E541EBC77DE00115EB8 /* UZChessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UZChessUITests.m; sourceTree = "<group>"; };
 		2EA13E561EBC77DE00115EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EA13E641EBC780E00115EB8 /* UZChessBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardViewController.h; sourceTree = "<group>"; };
-		2EA13E651EBC780E00115EB8 /* UZChessBoardViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessBoardViewController.mm; sourceTree = "<group>"; };
 		2EA13E691EBC780E00115EB8 /* UZAbstractSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAbstractSettings.h; sourceTree = "<group>"; };
 		2EA13E6A1EBC780E00115EB8 /* UZAbstractSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZAbstractSettings.m; sourceTree = "<group>"; };
 		2EA13E6B1EBC780E00115EB8 /* UZBaseSettingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZBaseSettingStore.h; sourceTree = "<group>"; };
@@ -219,6 +237,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E9EF5FA1EC017FF00C4C5C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EF5FB1EC017FF00C4C5C3 /* UZChessBoardViewController.h */,
+				2E9EF5FC1EC017FF00C4C5C3 /* UZChessBoardViewController.mm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E9EF5FD1EC017FF00C4C5C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EF5FF1EC0184300C4C5C3 /* UZChessBoardView.h */,
+				2E9EF6001EC0184300C4C5C3 /* UZChessBoardView.mm */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E9EF6021EC05B8000C4C5C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EF6031EC05B8D00C4C5C3 /* UZChessGameController.h */,
+				2E9EF6041EC05B8D00C4C5C3 /* UZChessGameController.mm */,
+				2E9EF6061EC05BEE00C4C5C3 /* UZChessGame.h */,
+				2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E9EF6091EC0607400C4C5C3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EF6101EC06F7E00C4C5C3 /* Util.h */,
+				2E9EF6111EC06F7E00C4C5C3 /* Util.mm */,
+				2E9EF60A1EC0608400C4C5C3 /* EngineController.h */,
+				2E9EF60B1EC0608400C4C5C3 /* EngineController.mm */,
+				2E9EF60C1EC0608400C4C5C3 /* Queue.h */,
+				2E9EF60D1EC0608400C4C5C3 /* Queue.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2EA13E231EBC77DE00115EB8 = {
 			isa = PBXGroup;
 			children = (
@@ -292,8 +352,9 @@
 		2EA13E631EBC780E00115EB8 /* Board */ = {
 			isa = PBXGroup;
 			children = (
-				2EA13E641EBC780E00115EB8 /* UZChessBoardViewController.h */,
-				2EA13E651EBC780E00115EB8 /* UZChessBoardViewController.mm */,
+				2E9EF6021EC05B8000C4C5C3 /* Model */,
+				2E9EF5FA1EC017FF00C4C5C3 /* Controller */,
+				2E9EF5FD1EC017FF00C4C5C3 /* View */,
 			);
 			path = Board;
 			sourceTree = "<group>";
@@ -347,6 +408,7 @@
 		2EA13E7F1EBC780E00115EB8 /* Stockfish */ = {
 			isa = PBXGroup;
 			children = (
+				2E9EF6091EC0607400C4C5C3 /* Classes */,
 				2EA13F321EBC788300115EB8 /* Engine */,
 				2EA13F011EBC785900115EB8 /* Chess */,
 			);
@@ -582,9 +644,11 @@
 				2EA13EDB1EBC780E00115EB8 /* IASKSpecifier.m in Sources */,
 				2EA13F301EBC785900115EB8 /* square.cpp in Sources */,
 				2EA13F601EBC788300115EB8 /* endgame.cpp in Sources */,
+				2E9EF6051EC05B8D00C4C5C3 /* UZChessGameController.mm in Sources */,
 				2EA13ED91EBC780E00115EB8 /* IASKSettingsStoreFile.m in Sources */,
 				2EA13F6E1EBC788300115EB8 /* uci.cpp in Sources */,
 				2EA13F5F1EBC788300115EB8 /* book.cpp in Sources */,
+				2E9EF6121EC06F7E00C4C5C3 /* Util.mm in Sources */,
 				2EA13ED21EBC780E00115EB8 /* UZBaseSettingStore.m in Sources */,
 				2EA13F5C1EBC788300115EB8 /* benchmark.cpp in Sources */,
 				2EA13F6A1EBC788300115EB8 /* search.cpp in Sources */,
@@ -593,6 +657,7 @@
 				2EA13F6C1EBC788300115EB8 /* timeman.cpp in Sources */,
 				2EA13F271EBC785900115EB8 /* direction.cpp in Sources */,
 				2EA13ED71EBC780E00115EB8 /* IASKSettingsReader.m in Sources */,
+				2E9EF5FE1EC017FF00C4C5C3 /* UZChessBoardViewController.mm in Sources */,
 				2EA13F631EBC788300115EB8 /* material.cpp in Sources */,
 				2EA13F251EBC785900115EB8 /* book.cpp in Sources */,
 				2EA13F311EBC785900115EB8 /* value.cpp in Sources */,
@@ -607,15 +672,18 @@
 				2EA13ED31EBC780E00115EB8 /* UZChessSettings.m in Sources */,
 				2EA13E311EBC77DE00115EB8 /* main.m in Sources */,
 				2EA13F2F1EBC785900115EB8 /* san.cpp in Sources */,
-				2EA13ED01EBC780E00115EB8 /* UZChessBoardViewController.mm in Sources */,
 				2EA13F671EBC788300115EB8 /* notation.cpp in Sources */,
 				2EA13F2A1EBC785900115EB8 /* move.cpp in Sources */,
+				2E9EF6011EC0184300C4C5C3 /* UZChessBoardView.mm in Sources */,
 				2EA13ED41EBC780E00115EB8 /* UZChessSettingStore.m in Sources */,
 				2EA13ED51EBC780E00115EB8 /* UZGlobalSettings.m in Sources */,
 				2EA13F291EBC785900115EB8 /* misc.cpp in Sources */,
 				2EA13F621EBC788300115EB8 /* iphone.mm in Sources */,
 				2EA13F691EBC788300115EB8 /* position.cpp in Sources */,
+				2E9EF6081EC05BEE00C4C5C3 /* UZChessGame.m in Sources */,
+				2E9EF60E1EC0608400C4C5C3 /* EngineController.mm in Sources */,
 				2EA13ED81EBC780E00115EB8 /* IASKSettingsStore.m in Sources */,
+				2E9EF60F1EC0608400C4C5C3 /* Queue.mm in Sources */,
 				2EA13EDA1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m in Sources */,
 				2EA13F2E1EBC785900115EB8 /* position.cpp in Sources */,
 				2EA13ED11EBC780E00115EB8 /* UZAbstractSettings.m in Sources */,
@@ -764,6 +832,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89P9DJMTGN;
+				GCC_PREFIX_HEADER = UZChess/UZChess.pch;
 				INFOPLIST_FILE = UZChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uzero.UZChess;
@@ -776,6 +845,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89P9DJMTGN;
+				GCC_PREFIX_HEADER = UZChess/UZChess.pch;
 				INFOPLIST_FILE = UZChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uzero.UZChess;
@@ -852,6 +922,7 @@
 				2EA13E5B1EBC77DE00115EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA13E5C1EBC77DE00115EB8 /* Build configuration list for PBXNativeTarget "UZChessTests" */ = {
 			isa = XCConfigurationList;
@@ -860,6 +931,7 @@
 				2EA13E5E1EBC77DE00115EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA13E5F1EBC77DE00115EB8 /* Build configuration list for PBXNativeTarget "UZChessUITests" */ = {
 			isa = XCConfigurationList;
@@ -868,6 +940,7 @@
 				2EA13E611EBC77DE00115EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

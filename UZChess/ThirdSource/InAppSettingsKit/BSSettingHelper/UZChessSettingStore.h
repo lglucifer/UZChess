@@ -13,4 +13,6 @@ extern NSString *const UZSettingStoreChessSettingKeyPrefix;
 
 @interface UZChessSettingStore : UZBaseSettingStore
 
++ (UZChessSettingStore *)defaultStore;
+
 @end
