@@ -54,18 +54,20 @@ typedef NS_ENUM(NSUInteger, UZChessBookVariety) {
 };
 
 @interface UZChessSettings : UZAbstractSettings
-
+//显示分析
 @property (nonatomic, assign) BOOL showAnalysis;
-
+//显示本次移动的路径
 @property (nonatomic, assign) BOOL showBookMoves;
-
+//显示允许移动的路径
 @property (nonatomic, assign) BOOL showLegalMoves;
-
+//显示棋盘坐标
 @property (nonatomic, assign) BOOL showCoordinates;
-
+//显示分析箭头
 @property (nonatomic, assign) BOOL showAnalysisArrows;
-
+//允许AI思考下一步动作
 @property (nonatomic, assign) BOOL enablePonder;
+//移动路径显示对应棋子的图标符号
+@property (nonatomic, assign) BOOL enableFigurineNotation;
 //AI游戏风格
 @property (nonatomic, assign) UZChessAIStyle AIMode;
 //AI级别
@@ -74,6 +76,8 @@ typedef NS_ENUM(NSUInteger, UZChessBookVariety) {
 @property (nonatomic, assign) UZChessBoardSquareTheme boardSquareTheme;
 //棋子主题
 @property (nonatomic, assign) UZChessBoardPieceTheme boardPieceTheme;
+
+@property (nonatomic, strong) NSNumber *strength;
 //主题对应格子颜色
 @property (nonatomic, strong, readonly) UIColor *darkSquareColor;
 @property (nonatomic, strong, readonly) UIColor *lightSquareColor;
@@ -85,5 +89,7 @@ typedef NS_ENUM(NSUInteger, UZChessBookVariety) {
 - (void)configureSquareWithSquareTheme;
 
 - (NSString *)AIModeFormat;
+
+- (NSString *)pieceThemeFormat;
 
 @end

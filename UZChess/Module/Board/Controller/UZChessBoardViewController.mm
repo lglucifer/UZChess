@@ -8,6 +8,7 @@
 
 #import "UZChessBoardViewController.h"
 #import "UZChessBoardView.h"
+#import "UZCoordinateView.h"
 
 @interface UZChessBoardViewController ()
 
@@ -17,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UZChessBoardView *boardView = [[UZChessBoardView alloc] initWithFrame:self.view.frame];
+    self.view.backgroundColor = [UIColor whiteColor];
+    CGFloat boardSize = SCREEN_WIDTH - 10;
+    CGFloat boardOffSetY = (SCREEN_Height - boardSize) / 2;
+    UZChessBoardView *boardView = [[UZChessBoardView alloc] initWithFrame:CGRectMake(5,
+                                                                                     boardOffSetY,
+                                                                                     boardSize,
+                                                                                     boardSize)];
     [self.view addSubview:boardView];
 }
 

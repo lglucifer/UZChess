@@ -12,5 +12,7 @@
 using namespace Chess;
 
 @interface UZChessBoardView : UIView
+//重置棋盘
+- (void)resetBoardView;
 
 @end

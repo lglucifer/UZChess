@@ -177,4 +177,31 @@
     }
 }
 
+- (NSString *)pieceThemeFormat {
+    switch (self.boardPieceTheme) {
+        case UZChessBoardPieceTheme_Cheq:
+            return @"Cheq";
+        case UZChessBoardPieceTheme_Maya:
+            return @"Maya";
+        case UZChessBoardPieceTheme_USCF:
+            return @"USCF";
+        case UZChessBoardPieceTheme_Alpha:
+            return @"Alpha";
+        case UZChessBoardPieceTheme_Berlin:
+            return @"Berlin";
+        case UZChessBoardPieceTheme_Merida:
+            return @"Merida";
+        case UZChessBoardPieceTheme_Modern:
+            return @"Modern";
+        case UZChessBoardPieceTheme_Leipzig:
+            return @"Leipzig";
+        case UZChessBoardPieceTheme_Russian:
+            return @"Russian";
+        case UZChessBoardPieceTheme_Invisible:
+            return @"Invisible";
+        default:
+            return @"Modern";
+    }
+}
+
 @end

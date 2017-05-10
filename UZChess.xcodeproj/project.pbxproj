@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E10A7181EC2E93300AAF510 /* UZChessLastMoveView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E10A7171EC2E93300AAF510 /* UZChessLastMoveView.mm */; };
+		2E10A71B1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E10A71A1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m */; };
+		2E10A7211EC306D600AAF510 /* UZChessLegalMovesSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E10A7201EC306D600AAF510 /* UZChessLegalMovesSquareView.m */; };
+		2E6B1F711EC19AC2009F737F /* MoveListView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B1F701EC19AC2009F737F /* MoveListView.mm */; };
 		2E9EF5FE1EC017FF00C4C5C3 /* UZChessBoardViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF5FC1EC017FF00C4C5C3 /* UZChessBoardViewController.mm */; };
 		2E9EF6011EC0184300C4C5C3 /* UZChessBoardView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6001EC0184300C4C5C3 /* UZChessBoardView.mm */; };
 		2E9EF6051EC05B8D00C4C5C3 /* UZChessGameController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6041EC05B8D00C4C5C3 /* UZChessGameController.mm */; };
@@ -65,6 +69,31 @@
 		2EA13F6D1EBC788300115EB8 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F561EBC788300115EB8 /* tt.cpp */; };
 		2EA13F6E1EBC788300115EB8 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F591EBC788300115EB8 /* uci.cpp */; };
 		2EA13F6F1EBC788300115EB8 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EA13F5A1EBC788300115EB8 /* ucioption.cpp */; };
+		2EB289771EC158B900FECAF3 /* ChessClock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289741EC158B900FECAF3 /* ChessClock.mm */; };
+		2EB289781EC158B900FECAF3 /* ChessMove.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289761EC158B900FECAF3 /* ChessMove.mm */; };
+		2EB2897B1EC15DD900FECAF3 /* OpeningBook.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2897A1EC15DD900FECAF3 /* OpeningBook.mm */; };
+		2EB2897E1EC15EEE00FECAF3 /* PGN.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2897D1EC15EEE00FECAF3 /* PGN.mm */; };
+		2EB289811EC15F0E00FECAF3 /* GameParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289801EC15F0E00FECAF3 /* GameParser.mm */; };
+		2EB289841EC15F5100FECAF3 /* ECO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289831EC15F5100FECAF3 /* ECO.mm */; };
+		2EB289871EC1644F00FECAF3 /* UZCoordinateView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289861EC1644F00FECAF3 /* UZCoordinateView.mm */; };
+		2EB289BA1EC1696000FECAF3 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2898B1EC1696000FECAF3 /* MASCompositeConstraint.m */; };
+		2EB289BB1EC1696000FECAF3 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2898E1EC1696000FECAF3 /* MASConstraint.m */; };
+		2EB289BC1EC1696000FECAF3 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289901EC1696000FECAF3 /* MASConstraintMaker.m */; };
+		2EB289BD1EC1696000FECAF3 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289921EC1696000FECAF3 /* MASLayoutConstraint.m */; };
+		2EB289BE1EC1696000FECAF3 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289961EC1696000FECAF3 /* MASViewAttribute.m */; };
+		2EB289BF1EC1696000FECAF3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289981EC1696000FECAF3 /* MASViewConstraint.m */; };
+		2EB289C01EC1696000FECAF3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2899A1EC1696000FECAF3 /* NSArray+MASAdditions.m */; };
+		2EB289C11EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2899D1EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2EB289C21EC1696000FECAF3 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2899F1EC1696000FECAF3 /* View+MASAdditions.m */; };
+		2EB289C31EC1696000FECAF3 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289A21EC1696000FECAF3 /* ViewController+MASAdditions.m */; };
+		2EB289C41EC1696000FECAF3 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289A61EC1696000FECAF3 /* NSData+YYAdd.m */; };
+		2EB289C61EC1696000FECAF3 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289AA1EC1696000FECAF3 /* NSDate+YYAdd.m */; };
+		2EB289C81EC1696000FECAF3 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289AD1EC1696000FECAF3 /* NSNumber+YYAdd.m */; };
+		2EB289C91EC1696000FECAF3 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289AF1EC1696000FECAF3 /* NSString+YYAdd.m */; };
+		2EB289CA1EC1696000FECAF3 /* UIColor+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289B21EC1696000FECAF3 /* UIColor+YYAdd.m */; };
+		2EB289CB1EC1696000FECAF3 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289B41EC1696000FECAF3 /* UIDevice+IdentifierAddition.m */; };
+		2EB289CC1EC1696000FECAF3 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289B61EC1696000FECAF3 /* UIDevice+YYAdd.m */; };
+		2EB289D01EC169BB00FECAF3 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB289CF1EC169BB00FECAF3 /* libz.1.2.5.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +114,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E10A7161EC2E93300AAF510 /* UZChessLastMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessLastMoveView.h; sourceTree = "<group>"; };
+		2E10A7171EC2E93300AAF510 /* UZChessLastMoveView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessLastMoveView.mm; sourceTree = "<group>"; };
+		2E10A7191EC2FF1D00AAF510 /* UZChessSelectedSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessSelectedSquareView.h; sourceTree = "<group>"; };
+		2E10A71A1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessSelectedSquareView.m; sourceTree = "<group>"; };
+		2E10A71F1EC306D600AAF510 /* UZChessLegalMovesSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessLegalMovesSquareView.h; sourceTree = "<group>"; };
+		2E10A7201EC306D600AAF510 /* UZChessLegalMovesSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessLegalMovesSquareView.m; sourceTree = "<group>"; };
+		2E6B1F6F1EC19AC2009F737F /* MoveListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveListView.h; sourceTree = "<group>"; };
+		2E6B1F701EC19AC2009F737F /* MoveListView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoveListView.mm; sourceTree = "<group>"; };
 		2E9EF5FB1EC017FF00C4C5C3 /* UZChessBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardViewController.h; sourceTree = "<group>"; };
 		2E9EF5FC1EC017FF00C4C5C3 /* UZChessBoardViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessBoardViewController.mm; sourceTree = "<group>"; };
 		2E9EF5FF1EC0184300C4C5C3 /* UZChessBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardView.h; sourceTree = "<group>"; };
@@ -210,6 +247,62 @@
 		2EA13F591EBC788300115EB8 /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uci.cpp; sourceTree = "<group>"; };
 		2EA13F5A1EBC788300115EB8 /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ucioption.cpp; sourceTree = "<group>"; };
 		2EA13F5B1EBC788300115EB8 /* ucioption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucioption.h; sourceTree = "<group>"; };
+		2EB289731EC158B900FECAF3 /* ChessClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessClock.h; sourceTree = "<group>"; };
+		2EB289741EC158B900FECAF3 /* ChessClock.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChessClock.mm; sourceTree = "<group>"; };
+		2EB289751EC158B900FECAF3 /* ChessMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessMove.h; sourceTree = "<group>"; };
+		2EB289761EC158B900FECAF3 /* ChessMove.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChessMove.mm; sourceTree = "<group>"; };
+		2EB289791EC15DD900FECAF3 /* OpeningBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningBook.h; sourceTree = "<group>"; };
+		2EB2897A1EC15DD900FECAF3 /* OpeningBook.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpeningBook.mm; sourceTree = "<group>"; };
+		2EB2897C1EC15EEE00FECAF3 /* PGN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGN.h; sourceTree = "<group>"; };
+		2EB2897D1EC15EEE00FECAF3 /* PGN.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGN.mm; sourceTree = "<group>"; };
+		2EB2897F1EC15F0E00FECAF3 /* GameParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameParser.h; sourceTree = "<group>"; };
+		2EB289801EC15F0E00FECAF3 /* GameParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameParser.mm; sourceTree = "<group>"; };
+		2EB289821EC15F5100FECAF3 /* ECO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECO.h; sourceTree = "<group>"; };
+		2EB289831EC15F5100FECAF3 /* ECO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ECO.mm; sourceTree = "<group>"; };
+		2EB289851EC1644F00FECAF3 /* UZCoordinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZCoordinateView.h; sourceTree = "<group>"; };
+		2EB289861EC1644F00FECAF3 /* UZCoordinateView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZCoordinateView.mm; sourceTree = "<group>"; };
+		2EB289881EC1683B00FECAF3 /* UZMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZMacro.h; sourceTree = "<group>"; };
+		2EB2898A1EC1696000FECAF3 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2EB2898B1EC1696000FECAF3 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2EB2898C1EC1696000FECAF3 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2EB2898D1EC1696000FECAF3 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2EB2898E1EC1696000FECAF3 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2EB2898F1EC1696000FECAF3 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2EB289901EC1696000FECAF3 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2EB289911EC1696000FECAF3 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2EB289921EC1696000FECAF3 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2EB289931EC1696000FECAF3 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2EB289941EC1696000FECAF3 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2EB289951EC1696000FECAF3 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2EB289961EC1696000FECAF3 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2EB289971EC1696000FECAF3 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2EB289981EC1696000FECAF3 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2EB289991EC1696000FECAF3 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2EB2899A1EC1696000FECAF3 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2EB2899B1EC1696000FECAF3 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2EB2899C1EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2EB2899D1EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2EB2899E1EC1696000FECAF3 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2EB2899F1EC1696000FECAF3 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2EB289A01EC1696000FECAF3 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2EB289A11EC1696000FECAF3 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2EB289A21EC1696000FECAF3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2EB289A51EC1696000FECAF3 /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
+		2EB289A61EC1696000FECAF3 /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
+		2EB289A91EC1696000FECAF3 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
+		2EB289AA1EC1696000FECAF3 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		2EB289AC1EC1696000FECAF3 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YYAdd.h"; sourceTree = "<group>"; };
+		2EB289AD1EC1696000FECAF3 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YYAdd.m"; sourceTree = "<group>"; };
+		2EB289AE1EC1696000FECAF3 /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
+		2EB289AF1EC1696000FECAF3 /* NSString+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYAdd.m"; sourceTree = "<group>"; };
+		2EB289B11EC1696000FECAF3 /* UIColor+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YYAdd.h"; sourceTree = "<group>"; };
+		2EB289B21EC1696000FECAF3 /* UIColor+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YYAdd.m"; sourceTree = "<group>"; };
+		2EB289B31EC1696000FECAF3 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		2EB289B41EC1696000FECAF3 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		2EB289B51EC1696000FECAF3 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		2EB289B61EC1696000FECAF3 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YYAdd.m"; sourceTree = "<group>"; };
+		2EB289B91EC1696000FECAF3 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		2EB289CF1EC169BB00FECAF3 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +310,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB289D01EC169BB00FECAF3 /* libz.1.2.5.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +345,14 @@
 			children = (
 				2E9EF5FF1EC0184300C4C5C3 /* UZChessBoardView.h */,
 				2E9EF6001EC0184300C4C5C3 /* UZChessBoardView.mm */,
+				2EB289851EC1644F00FECAF3 /* UZCoordinateView.h */,
+				2EB289861EC1644F00FECAF3 /* UZCoordinateView.mm */,
+				2E10A7161EC2E93300AAF510 /* UZChessLastMoveView.h */,
+				2E10A7171EC2E93300AAF510 /* UZChessLastMoveView.mm */,
+				2E10A7191EC2FF1D00AAF510 /* UZChessSelectedSquareView.h */,
+				2E10A71A1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m */,
+				2E10A71F1EC306D600AAF510 /* UZChessLegalMovesSquareView.h */,
+				2E10A7201EC306D600AAF510 /* UZChessLegalMovesSquareView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,6 +371,20 @@
 		2E9EF6091EC0607400C4C5C3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2E6B1F6F1EC19AC2009F737F /* MoveListView.h */,
+				2E6B1F701EC19AC2009F737F /* MoveListView.mm */,
+				2EB289821EC15F5100FECAF3 /* ECO.h */,
+				2EB289831EC15F5100FECAF3 /* ECO.mm */,
+				2EB2897F1EC15F0E00FECAF3 /* GameParser.h */,
+				2EB289801EC15F0E00FECAF3 /* GameParser.mm */,
+				2EB2897C1EC15EEE00FECAF3 /* PGN.h */,
+				2EB2897D1EC15EEE00FECAF3 /* PGN.mm */,
+				2EB289791EC15DD900FECAF3 /* OpeningBook.h */,
+				2EB2897A1EC15DD900FECAF3 /* OpeningBook.mm */,
+				2EB289731EC158B900FECAF3 /* ChessClock.h */,
+				2EB289741EC158B900FECAF3 /* ChessClock.mm */,
+				2EB289751EC158B900FECAF3 /* ChessMove.h */,
+				2EB289761EC158B900FECAF3 /* ChessMove.mm */,
 				2E9EF6101EC06F7E00C4C5C3 /* Util.h */,
 				2E9EF6111EC06F7E00C4C5C3 /* Util.mm */,
 				2E9EF60A1EC0608400C4C5C3 /* EngineController.h */,
@@ -286,6 +402,7 @@
 				2EA13E481EBC77DE00115EB8 /* UZChessTests */,
 				2EA13E531EBC77DE00115EB8 /* UZChessUITests */,
 				2EA13E2D1EBC77DE00115EB8 /* Products */,
+				2EB289CE1EC169BB00FECAF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -318,6 +435,7 @@
 			isa = PBXGroup;
 			children = (
 				2EA13F001EBC781600115EB8 /* UZChess.pch */,
+				2EB289881EC1683B00FECAF3 /* UZMacro.h */,
 				2EA13E301EBC77DE00115EB8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -362,6 +480,8 @@
 		2EA13E661EBC780E00115EB8 /* ThirdSource */ = {
 			isa = PBXGroup;
 			children = (
+				2EB289891EC1696000FECAF3 /* Masonry */,
+				2EB289A31EC1696000FECAF3 /* YYKit */,
 				2EA13E671EBC780E00115EB8 /* InAppSettingsKit */,
 				2EA13E7F1EBC780E00115EB8 /* Stockfish */,
 			);
@@ -504,6 +624,84 @@
 			path = Engine;
 			sourceTree = "<group>";
 		};
+		2EB289891EC1696000FECAF3 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2EB2898A1EC1696000FECAF3 /* MASCompositeConstraint.h */,
+				2EB2898B1EC1696000FECAF3 /* MASCompositeConstraint.m */,
+				2EB2898C1EC1696000FECAF3 /* MASConstraint+Private.h */,
+				2EB2898D1EC1696000FECAF3 /* MASConstraint.h */,
+				2EB2898E1EC1696000FECAF3 /* MASConstraint.m */,
+				2EB2898F1EC1696000FECAF3 /* MASConstraintMaker.h */,
+				2EB289901EC1696000FECAF3 /* MASConstraintMaker.m */,
+				2EB289911EC1696000FECAF3 /* MASLayoutConstraint.h */,
+				2EB289921EC1696000FECAF3 /* MASLayoutConstraint.m */,
+				2EB289931EC1696000FECAF3 /* Masonry.h */,
+				2EB289941EC1696000FECAF3 /* MASUtilities.h */,
+				2EB289951EC1696000FECAF3 /* MASViewAttribute.h */,
+				2EB289961EC1696000FECAF3 /* MASViewAttribute.m */,
+				2EB289971EC1696000FECAF3 /* MASViewConstraint.h */,
+				2EB289981EC1696000FECAF3 /* MASViewConstraint.m */,
+				2EB289991EC1696000FECAF3 /* NSArray+MASAdditions.h */,
+				2EB2899A1EC1696000FECAF3 /* NSArray+MASAdditions.m */,
+				2EB2899B1EC1696000FECAF3 /* NSArray+MASShorthandAdditions.h */,
+				2EB2899C1EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2EB2899D1EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2EB2899E1EC1696000FECAF3 /* View+MASAdditions.h */,
+				2EB2899F1EC1696000FECAF3 /* View+MASAdditions.m */,
+				2EB289A01EC1696000FECAF3 /* View+MASShorthandAdditions.h */,
+				2EB289A11EC1696000FECAF3 /* ViewController+MASAdditions.h */,
+				2EB289A21EC1696000FECAF3 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		2EB289A31EC1696000FECAF3 /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				2EB289A41EC1696000FECAF3 /* Foundation */,
+				2EB289B01EC1696000FECAF3 /* UIKit */,
+				2EB289B91EC1696000FECAF3 /* YYKitMacro.h */,
+			);
+			path = YYKit;
+			sourceTree = "<group>";
+		};
+		2EB289A41EC1696000FECAF3 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2EB289A51EC1696000FECAF3 /* NSData+YYAdd.h */,
+				2EB289A61EC1696000FECAF3 /* NSData+YYAdd.m */,
+				2EB289A91EC1696000FECAF3 /* NSDate+YYAdd.h */,
+				2EB289AA1EC1696000FECAF3 /* NSDate+YYAdd.m */,
+				2EB289AC1EC1696000FECAF3 /* NSNumber+YYAdd.h */,
+				2EB289AD1EC1696000FECAF3 /* NSNumber+YYAdd.m */,
+				2EB289AE1EC1696000FECAF3 /* NSString+YYAdd.h */,
+				2EB289AF1EC1696000FECAF3 /* NSString+YYAdd.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		2EB289B01EC1696000FECAF3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2EB289B11EC1696000FECAF3 /* UIColor+YYAdd.h */,
+				2EB289B21EC1696000FECAF3 /* UIColor+YYAdd.m */,
+				2EB289B31EC1696000FECAF3 /* UIDevice+IdentifierAddition.h */,
+				2EB289B41EC1696000FECAF3 /* UIDevice+IdentifierAddition.m */,
+				2EB289B51EC1696000FECAF3 /* UIDevice+YYAdd.h */,
+				2EB289B61EC1696000FECAF3 /* UIDevice+YYAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2EB289CE1EC169BB00FECAF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB289CF1EC169BB00FECAF3 /* libz.1.2.5.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -641,14 +839,22 @@
 			files = (
 				2EA13F611EBC788300115EB8 /* evaluate.cpp in Sources */,
 				2EA13F5D1EBC788300115EB8 /* bitbase.cpp in Sources */,
+				2EB289C41EC1696000FECAF3 /* NSData+YYAdd.m in Sources */,
 				2EA13EDB1EBC780E00115EB8 /* IASKSpecifier.m in Sources */,
 				2EA13F301EBC785900115EB8 /* square.cpp in Sources */,
+				2EB289C91EC1696000FECAF3 /* NSString+YYAdd.m in Sources */,
 				2EA13F601EBC788300115EB8 /* endgame.cpp in Sources */,
+				2EB289841EC15F5100FECAF3 /* ECO.mm in Sources */,
+				2E10A7211EC306D600AAF510 /* UZChessLegalMovesSquareView.m in Sources */,
+				2EB289C81EC1696000FECAF3 /* NSNumber+YYAdd.m in Sources */,
 				2E9EF6051EC05B8D00C4C5C3 /* UZChessGameController.mm in Sources */,
+				2E6B1F711EC19AC2009F737F /* MoveListView.mm in Sources */,
 				2EA13ED91EBC780E00115EB8 /* IASKSettingsStoreFile.m in Sources */,
 				2EA13F6E1EBC788300115EB8 /* uci.cpp in Sources */,
 				2EA13F5F1EBC788300115EB8 /* book.cpp in Sources */,
+				2EB289811EC15F0E00FECAF3 /* GameParser.mm in Sources */,
 				2E9EF6121EC06F7E00C4C5C3 /* Util.mm in Sources */,
+				2EB289C01EC1696000FECAF3 /* NSArray+MASAdditions.m in Sources */,
 				2EA13ED21EBC780E00115EB8 /* UZBaseSettingStore.m in Sources */,
 				2EA13F5C1EBC788300115EB8 /* benchmark.cpp in Sources */,
 				2EA13F6A1EBC788300115EB8 /* search.cpp in Sources */,
@@ -658,9 +864,13 @@
 				2EA13F271EBC785900115EB8 /* direction.cpp in Sources */,
 				2EA13ED71EBC780E00115EB8 /* IASKSettingsReader.m in Sources */,
 				2E9EF5FE1EC017FF00C4C5C3 /* UZChessBoardViewController.mm in Sources */,
+				2EB2897E1EC15EEE00FECAF3 /* PGN.mm in Sources */,
 				2EA13F631EBC788300115EB8 /* material.cpp in Sources */,
+				2EB289BE1EC1696000FECAF3 /* MASViewAttribute.m in Sources */,
 				2EA13F251EBC785900115EB8 /* book.cpp in Sources */,
 				2EA13F311EBC785900115EB8 /* value.cpp in Sources */,
+				2EB289C31EC1696000FECAF3 /* ViewController+MASAdditions.m in Sources */,
+				2EB289CB1EC1696000FECAF3 /* UIDevice+IdentifierAddition.m in Sources */,
 				2EA13F651EBC788300115EB8 /* movegen.cpp in Sources */,
 				2EA13F261EBC785900115EB8 /* color.cpp in Sources */,
 				2EA13F2B1EBC785900115EB8 /* movegen.cpp in Sources */,
@@ -668,30 +878,46 @@
 				2EA13F641EBC788300115EB8 /* misc.cpp in Sources */,
 				2EA13F6F1EBC788300115EB8 /* ucioption.cpp in Sources */,
 				2EA13F681EBC788300115EB8 /* pawns.cpp in Sources */,
+				2EB289BD1EC1696000FECAF3 /* MASLayoutConstraint.m in Sources */,
 				2EA13E341EBC77DE00115EB8 /* AppDelegate.mm in Sources */,
 				2EA13ED31EBC780E00115EB8 /* UZChessSettings.m in Sources */,
+				2E10A7181EC2E93300AAF510 /* UZChessLastMoveView.mm in Sources */,
 				2EA13E311EBC77DE00115EB8 /* main.m in Sources */,
 				2EA13F2F1EBC785900115EB8 /* san.cpp in Sources */,
+				2EB289CC1EC1696000FECAF3 /* UIDevice+YYAdd.m in Sources */,
+				2EB289781EC158B900FECAF3 /* ChessMove.mm in Sources */,
+				2E10A71B1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m in Sources */,
+				2EB289BC1EC1696000FECAF3 /* MASConstraintMaker.m in Sources */,
 				2EA13F671EBC788300115EB8 /* notation.cpp in Sources */,
+				2EB289BA1EC1696000FECAF3 /* MASCompositeConstraint.m in Sources */,
 				2EA13F2A1EBC785900115EB8 /* move.cpp in Sources */,
 				2E9EF6011EC0184300C4C5C3 /* UZChessBoardView.mm in Sources */,
 				2EA13ED41EBC780E00115EB8 /* UZChessSettingStore.m in Sources */,
 				2EA13ED51EBC780E00115EB8 /* UZGlobalSettings.m in Sources */,
 				2EA13F291EBC785900115EB8 /* misc.cpp in Sources */,
+				2EB289C21EC1696000FECAF3 /* View+MASAdditions.m in Sources */,
+				2EB289871EC1644F00FECAF3 /* UZCoordinateView.mm in Sources */,
 				2EA13F621EBC788300115EB8 /* iphone.mm in Sources */,
 				2EA13F691EBC788300115EB8 /* position.cpp in Sources */,
+				2EB289BB1EC1696000FECAF3 /* MASConstraint.m in Sources */,
 				2E9EF6081EC05BEE00C4C5C3 /* UZChessGame.m in Sources */,
+				2EB289C11EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2EB289BF1EC1696000FECAF3 /* MASViewConstraint.m in Sources */,
 				2E9EF60E1EC0608400C4C5C3 /* EngineController.mm in Sources */,
 				2EA13ED81EBC780E00115EB8 /* IASKSettingsStore.m in Sources */,
 				2E9EF60F1EC0608400C4C5C3 /* Queue.mm in Sources */,
 				2EA13EDA1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m in Sources */,
 				2EA13F2E1EBC785900115EB8 /* position.cpp in Sources */,
 				2EA13ED11EBC780E00115EB8 /* UZAbstractSettings.m in Sources */,
+				2EB289771EC158B900FECAF3 /* ChessClock.mm in Sources */,
 				2EA13ED61EBC780E00115EB8 /* UZSettingStore.m in Sources */,
 				2EA13F6D1EBC788300115EB8 /* tt.cpp in Sources */,
+				2EB289C61EC1696000FECAF3 /* NSDate+YYAdd.m in Sources */,
+				2EB2897B1EC15DD900FECAF3 /* OpeningBook.mm in Sources */,
 				2EA13F241EBC785900115EB8 /* bitboard.cpp in Sources */,
 				2EA13F281EBC785900115EB8 /* mersenne.cpp in Sources */,
 				2EA13F2C1EBC785900115EB8 /* movepick.cpp in Sources */,
+				2EB289CA1EC1696000FECAF3 /* UIColor+YYAdd.m in Sources */,
 				2EA13F661EBC788300115EB8 /* movepick.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
