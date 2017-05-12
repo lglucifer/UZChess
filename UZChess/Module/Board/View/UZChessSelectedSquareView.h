@@ -10,4 +10,8 @@
 
 @interface UZChessSelectedSquareView : UIView
 
+- (void)hide;
+
+- (void)moveToPoint:(CGPoint)point;
+
 @end

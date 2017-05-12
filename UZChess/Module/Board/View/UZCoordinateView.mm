@@ -67,10 +67,10 @@
             
             [rankLeftLbs[i]
              setText:[NSString stringWithFormat: @"%c",
-                      (char)(i + '1')]];
+                      (char)((7 - i) + '1')]];
             [rankRightLbs[i]
              setText:[NSString stringWithFormat: @"%c",
-                      (char)(i + '1')]];
+                      (char)((7 - i) + '1')]];
                              
 
             [fileTopLbs[i] setTextColor:[UIColor blackColor]];

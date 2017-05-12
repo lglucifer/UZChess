@@ -20,6 +20,8 @@ using namespace Chess;
 
 @property (nonatomic, weak) UZChessBoardViewController *boardViewController;
 
+@property (nonatomic, strong) UZChessGameController *gameController;
+
 @end
 
 @implementation AppDelegate
@@ -41,6 +43,13 @@ using namespace Chess;
 
 - (void)inner_BackgroundInit {
     @autoreleasepool {
+        self.gameController = [[UZChessGameController alloc] initWithBoardView:self.boardViewController.boardView
+                                                                  moveListView:nil
+                                                                  analysisView:nil
+                                                                 bookMovesView:nil
+                                                                whiteClockView:nil
+                                                                blackClockView:nil
+                                                               searchStatsView:nil];
         /* Chess init */
         init_mersenne();
         init_direction_table();
@@ -55,6 +64,8 @@ using namespace Chess;
             genrand_int32();
         }
         
+        [self.gameController loadPieceImages];
+        
         [self performSelectorOnMainThread:@selector(inner_BackgroundInitFinished)
                                withObject:nil
                             waitUntilDone:NO];
@@ -62,7 +73,10 @@ using namespace Chess;
 }
 
 - (void)inner_BackgroundInitFinished {
+    [self.gameController showPieceImagesAnimated:YES];
+    [self.boardViewController configureWithGameController:self.gameController];
     
+    [self.gameController gameFromFEN:@"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

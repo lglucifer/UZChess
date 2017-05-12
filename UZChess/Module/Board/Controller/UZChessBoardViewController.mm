@@ -10,7 +10,11 @@
 #import "UZChessBoardView.h"
 #import "UZCoordinateView.h"
 
+#import "UZChessGameController.h"
+
 @interface UZChessBoardViewController ()
+
+@property (nonatomic, weak) UZChessGameController *gameController;
 
 @end
 
@@ -26,6 +30,12 @@
                                                                                      boardSize,
                                                                                      boardSize)];
     [self.view addSubview:boardView];
+    self.boardView = boardView;
+}
+
+- (void)configureWithGameController:(UZChessGameController *)gameController {
+    self.gameController = gameController;
+    self.boardView.boardInnerView.gameController = gameController;
 }
 
 - (void)didReceiveMemoryWarning {

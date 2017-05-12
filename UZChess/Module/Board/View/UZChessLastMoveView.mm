@@ -26,6 +26,8 @@
         _fromSq = fSq;
         _toSq = tSq;
         _sqSize = sqSize;
+        self.opaque = NO;
+        self.userInteractionEnabled = NO;
     }
     return self;
 }
@@ -53,6 +55,13 @@
                        _sqSize);
     UIRectFrame(frame);
     UIRectFrame(CGRectInset(frame, 1.f, 1.f));
+}
+
+- (void)updateFromSq:(Square)fSq
+                toSq:(Square)tSq {
+    _fromSq = fSq;
+    _toSq = tSq;
+    [self setNeedsDisplay];
 }
 
 - (void)dealloc {

@@ -19,4 +19,7 @@ using namespace Chess;
                toSq:(Square)tSq
              sqSize:(float)sqSize;
 
+- (void)updateFromSq:(Square)fSq
+                toSq:(Square)tSq;
+
 @end

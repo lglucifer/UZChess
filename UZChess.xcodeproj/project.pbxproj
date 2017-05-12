@@ -10,11 +10,12 @@
 		2E10A7181EC2E93300AAF510 /* UZChessLastMoveView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E10A7171EC2E93300AAF510 /* UZChessLastMoveView.mm */; };
 		2E10A71B1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E10A71A1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m */; };
 		2E10A7211EC306D600AAF510 /* UZChessLegalMovesSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E10A7201EC306D600AAF510 /* UZChessLegalMovesSquareView.m */; };
+		2E647C7C1EC4037B0029D2F7 /* UZChessBoardInnerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E647C7B1EC4037B0029D2F7 /* UZChessBoardInnerView.mm */; };
 		2E6B1F711EC19AC2009F737F /* MoveListView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B1F701EC19AC2009F737F /* MoveListView.mm */; };
 		2E9EF5FE1EC017FF00C4C5C3 /* UZChessBoardViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF5FC1EC017FF00C4C5C3 /* UZChessBoardViewController.mm */; };
 		2E9EF6011EC0184300C4C5C3 /* UZChessBoardView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6001EC0184300C4C5C3 /* UZChessBoardView.mm */; };
 		2E9EF6051EC05B8D00C4C5C3 /* UZChessGameController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6041EC05B8D00C4C5C3 /* UZChessGameController.mm */; };
-		2E9EF6081EC05BEE00C4C5C3 /* UZChessGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.m */; };
+		2E9EF6081EC05BEE00C4C5C3 /* UZChessGame.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.mm */; };
 		2E9EF60E1EC0608400C4C5C3 /* EngineController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF60B1EC0608400C4C5C3 /* EngineController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2E9EF60F1EC0608400C4C5C3 /* Queue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF60D1EC0608400C4C5C3 /* Queue.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2E9EF6121EC06F7E00C4C5C3 /* Util.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF6111EC06F7E00C4C5C3 /* Util.mm */; };
@@ -94,6 +95,7 @@
 		2EB289CB1EC1696000FECAF3 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289B41EC1696000FECAF3 /* UIDevice+IdentifierAddition.m */; };
 		2EB289CC1EC1696000FECAF3 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB289B61EC1696000FECAF3 /* UIDevice+YYAdd.m */; };
 		2EB289D01EC169BB00FECAF3 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB289CF1EC169BB00FECAF3 /* libz.1.2.5.tbd */; };
+		2EFD8A101EC42F9F000AF5DC /* PieceImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD8A0F1EC42F9F000AF5DC /* PieceImageView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,8 @@
 		2E10A71A1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessSelectedSquareView.m; sourceTree = "<group>"; };
 		2E10A71F1EC306D600AAF510 /* UZChessLegalMovesSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessLegalMovesSquareView.h; sourceTree = "<group>"; };
 		2E10A7201EC306D600AAF510 /* UZChessLegalMovesSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessLegalMovesSquareView.m; sourceTree = "<group>"; };
+		2E647C7A1EC4037B0029D2F7 /* UZChessBoardInnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardInnerView.h; sourceTree = "<group>"; };
+		2E647C7B1EC4037B0029D2F7 /* UZChessBoardInnerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessBoardInnerView.mm; sourceTree = "<group>"; };
 		2E6B1F6F1EC19AC2009F737F /* MoveListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveListView.h; sourceTree = "<group>"; };
 		2E6B1F701EC19AC2009F737F /* MoveListView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoveListView.mm; sourceTree = "<group>"; };
 		2E9EF5FB1EC017FF00C4C5C3 /* UZChessBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessBoardViewController.h; sourceTree = "<group>"; };
@@ -129,7 +133,7 @@
 		2E9EF6031EC05B8D00C4C5C3 /* UZChessGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessGameController.h; sourceTree = "<group>"; };
 		2E9EF6041EC05B8D00C4C5C3 /* UZChessGameController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessGameController.mm; sourceTree = "<group>"; };
 		2E9EF6061EC05BEE00C4C5C3 /* UZChessGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZChessGame.h; sourceTree = "<group>"; };
-		2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZChessGame.m; sourceTree = "<group>"; };
+		2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UZChessGame.mm; sourceTree = "<group>"; };
 		2E9EF60A1EC0608400C4C5C3 /* EngineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineController.h; sourceTree = "<group>"; };
 		2E9EF60B1EC0608400C4C5C3 /* EngineController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EngineController.mm; sourceTree = "<group>"; };
 		2E9EF60C1EC0608400C4C5C3 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
@@ -303,6 +307,8 @@
 		2EB289B61EC1696000FECAF3 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YYAdd.m"; sourceTree = "<group>"; };
 		2EB289B91EC1696000FECAF3 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
 		2EB289CF1EC169BB00FECAF3 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		2EFD8A0E1EC42F9F000AF5DC /* PieceImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceImageView.h; sourceTree = "<group>"; };
+		2EFD8A0F1EC42F9F000AF5DC /* PieceImageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PieceImageView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +359,8 @@
 				2E10A71A1EC2FF1D00AAF510 /* UZChessSelectedSquareView.m */,
 				2E10A71F1EC306D600AAF510 /* UZChessLegalMovesSquareView.h */,
 				2E10A7201EC306D600AAF510 /* UZChessLegalMovesSquareView.m */,
+				2E647C7A1EC4037B0029D2F7 /* UZChessBoardInnerView.h */,
+				2E647C7B1EC4037B0029D2F7 /* UZChessBoardInnerView.mm */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -363,7 +371,7 @@
 				2E9EF6031EC05B8D00C4C5C3 /* UZChessGameController.h */,
 				2E9EF6041EC05B8D00C4C5C3 /* UZChessGameController.mm */,
 				2E9EF6061EC05BEE00C4C5C3 /* UZChessGame.h */,
-				2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.m */,
+				2E9EF6071EC05BEE00C4C5C3 /* UZChessGame.mm */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -371,6 +379,8 @@
 		2E9EF6091EC0607400C4C5C3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2EFD8A0E1EC42F9F000AF5DC /* PieceImageView.h */,
+				2EFD8A0F1EC42F9F000AF5DC /* PieceImageView.mm */,
 				2E6B1F6F1EC19AC2009F737F /* MoveListView.h */,
 				2E6B1F701EC19AC2009F737F /* MoveListView.mm */,
 				2EB289821EC15F5100FECAF3 /* ECO.h */,
@@ -853,6 +863,7 @@
 				2EA13F6E1EBC788300115EB8 /* uci.cpp in Sources */,
 				2EA13F5F1EBC788300115EB8 /* book.cpp in Sources */,
 				2EB289811EC15F0E00FECAF3 /* GameParser.mm in Sources */,
+				2E647C7C1EC4037B0029D2F7 /* UZChessBoardInnerView.mm in Sources */,
 				2E9EF6121EC06F7E00C4C5C3 /* Util.mm in Sources */,
 				2EB289C01EC1696000FECAF3 /* NSArray+MASAdditions.m in Sources */,
 				2EA13ED21EBC780E00115EB8 /* UZBaseSettingStore.m in Sources */,
@@ -900,11 +911,12 @@
 				2EA13F621EBC788300115EB8 /* iphone.mm in Sources */,
 				2EA13F691EBC788300115EB8 /* position.cpp in Sources */,
 				2EB289BB1EC1696000FECAF3 /* MASConstraint.m in Sources */,
-				2E9EF6081EC05BEE00C4C5C3 /* UZChessGame.m in Sources */,
+				2E9EF6081EC05BEE00C4C5C3 /* UZChessGame.mm in Sources */,
 				2EB289C11EC1696000FECAF3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2EB289BF1EC1696000FECAF3 /* MASViewConstraint.m in Sources */,
 				2E9EF60E1EC0608400C4C5C3 /* EngineController.mm in Sources */,
 				2EA13ED81EBC780E00115EB8 /* IASKSettingsStore.m in Sources */,
+				2EFD8A101EC42F9F000AF5DC /* PieceImageView.mm in Sources */,
 				2E9EF60F1EC0608400C4C5C3 /* Queue.mm in Sources */,
 				2EA13EDA1EBC780E00115EB8 /* IASKSettingsStoreUserDefaults.m in Sources */,
 				2EA13F2E1EBC785900115EB8 /* position.cpp in Sources */,
@@ -1059,6 +1071,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89P9DJMTGN;
 				GCC_PREFIX_HEADER = UZChess/UZChess.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = UZChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uzero.UZChess;
@@ -1072,6 +1085,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89P9DJMTGN;
 				GCC_PREFIX_HEADER = UZChess/UZChess.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = UZChess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uzero.UZChess;

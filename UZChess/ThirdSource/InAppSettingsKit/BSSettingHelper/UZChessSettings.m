@@ -45,7 +45,8 @@
 + (NSDictionary *)settingPropertyKeysWithDefaultValues {
     return
     @{
-      @"AIMode": @(0),
+      @"gameMode": @(0),
+      @"AIStyle": @(0),
       @"boardSquareTheme": @(6),
       @"enablePonder": @(YES)
     };
@@ -160,8 +161,8 @@
     }
 }
 
-- (NSString *)AIModeFormat {
-    switch (self.AIMode) {
+- (NSString *)AIStyleFormat {
+    switch (self.AIStyle) {
         case UZChessAIStyle_Active:
             return @"Active";
         case UZChessAIStyle_Solid:

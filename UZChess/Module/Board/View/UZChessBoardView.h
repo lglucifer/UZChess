@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#include "square.h"
-
-using namespace Chess;
+#import "UZChessBoardInnerView.h"
 
 @interface UZChessBoardView : UIView
-//重置棋盘
-- (void)resetBoardView;
+
+@property (nonatomic, weak, readonly) UZChessBoardInnerView *boardInnerView;
 
 @end

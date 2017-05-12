@@ -9,7 +9,10 @@
 #import "UZAbstractSettings.h"
 
 typedef NS_ENUM(NSUInteger, UZChessGameMode) {
-    UZChessGameMode_Idle    = (0)
+    UZChessGameMode_COMPUTER_BLACK  = (0),
+    UZChessGameMode_COMPUTER_WHITE  = (1),
+    UZChessGameMode_ANALYSE         = (2),
+    UZChessGameMode_TWO_PLAYER      = (3)
 };
 
 typedef NS_ENUM(NSUInteger, UZChessGameLevel) {
@@ -68,8 +71,10 @@ typedef NS_ENUM(NSUInteger, UZChessBookVariety) {
 @property (nonatomic, assign) BOOL enablePonder;
 //移动路径显示对应棋子的图标符号
 @property (nonatomic, assign) BOOL enableFigurineNotation;
+//游戏模式
+@property (nonatomic, assign) UZChessGameMode gameMode;
 //AI游戏风格
-@property (nonatomic, assign) UZChessAIStyle AIMode;
+@property (nonatomic, assign) UZChessAIStyle AIStyle;
 //AI级别
 @property (nonatomic, assign) UZChessBookVariety bookVariety;
 //棋盘格子主题
@@ -88,7 +93,7 @@ typedef NS_ENUM(NSUInteger, UZChessBookVariety) {
 
 - (void)configureSquareWithSquareTheme;
 
-- (NSString *)AIModeFormat;
+- (NSString *)AIStyleFormat;
 
 - (NSString *)pieceThemeFormat;
 

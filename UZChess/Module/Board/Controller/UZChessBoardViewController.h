@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "UZChessBoardView.h"
+#import "UZChessGameController.h"
 
 @interface UZChessBoardViewController : UIViewController
+
+@property (nonatomic, weak) UZChessBoardView *boardView;
+
+- (void)configureWithGameController:(UZChessGameController *)gameController;
 
 @end
